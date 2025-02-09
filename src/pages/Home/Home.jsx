@@ -51,7 +51,7 @@ export default function Home() {
                 <p className="text-white text-lg">Explore our adventures</p>
                 <Button className="">
                   <ArrowRight className="bg-[#ED952B] rounded-full p-1 text-white -rotate-45 transition duration-400 size-7 group-hover:rotate-0 group-hover:size-8" />
-                </Button>
+                </Button> 
               </div>
             </div>
           </div>
