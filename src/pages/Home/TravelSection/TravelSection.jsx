@@ -10,7 +10,7 @@ export default function TravelSection() {
     <section className="bg-[#FAFAFA]">
       <div className="container space-y-8 py-8">
         <TravelHeaderSection />
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           <TraveIImageCard image={image1} overlayPosition="bottom" />
           <TravelInfoCard />
           <TraveIImageCard image={image2} overlayPosition="top" />
