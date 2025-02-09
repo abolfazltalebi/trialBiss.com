@@ -1,10 +1,13 @@
- 
 export default function TravelHeaderSection() {
   return (
     <div className="space-y-4 text-center">
-    <h2 className="text-2xl font-bold">Travel Tales That Inspire Adventure</h2>
-    <p className="text-[#454444] text-sm">
-      Prepare for the journey of a lifetime! Explore our unforgettable experiences.
-    </p>
-  </div>  )
+      <h2 className="text-2xl font-bold">
+        Travel Tales That Inspire Adventure
+      </h2>
+      <p className="text-[#454444] text-sm">
+        Prepare for the journey of a lifetime! Explore our unforgettable
+        experiences.
+      </p>
+    </div>
+  );
 }
