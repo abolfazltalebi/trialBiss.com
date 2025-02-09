@@ -17,6 +17,9 @@ export default function Button({ children, variant, className, ...props }) {
     if (variant === "moreSection") {
       return "bg-white  text-[#0179B4]  flex items-center justify-center px-6 py-3 rounded-xl text-sm gap-2";
     }
+    if (variant === "footer") {
+      return "size-12";
+    }
     return "";
   }
   
