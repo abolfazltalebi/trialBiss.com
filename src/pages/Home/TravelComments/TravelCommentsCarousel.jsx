@@ -10,7 +10,7 @@ import { TravelItems } from "../../../constanst/TravelItems";
 export default function TravelCommentsCarousel() {
   return (
 
-    <div className="relative">
+    <div className="relative col-span-2">
       <Swiper
         spaceBetween={15}
         slidesPerView={1}

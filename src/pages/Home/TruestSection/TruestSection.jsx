@@ -3,9 +3,9 @@ import TruestSectionImage from './TruestSectionImage'
 
 export default function TruestSection() {
   return (
-    <section className='container flex flex-wrap items-center sm:flex-nowrap gap-5'>
-      <TruestSectionImage/>
+    <section className='container grid grid-cols-1 sm:grid-cols-2 items-center gap-5'>
       <TruestSectionCaption/>
+      <TruestSectionImage/>
     </section>
   )
 }
