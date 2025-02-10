@@ -1,5 +1,4 @@
 import { Quote } from "lucide-react";
-import React from "react";
 
 export default function TravelCommentsCard({ event }) {
   const { text, image, name, location } = event;
