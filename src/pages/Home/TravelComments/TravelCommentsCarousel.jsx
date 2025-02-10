@@ -1,42 +1,42 @@
 import "swiper/swiper-bundle.css";
-import './Event.css'
+import './Travel.css'
 
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import EventCard from "./EventCard";
-import { EventItem } from "../../../constanst/EventItems";
+import TravelCommentsCard from "./TravelCommentsCard";
+import { TravelItems } from "../../../constanst/TravelItems";
 
-export default function EventSectionCarousel() {
+export default function TravelCommentsCarousel() {
   return (
+
     <div className="relative">
       <Swiper
         spaceBetween={15}
         slidesPerView={1}
-        // autoplay={{
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
-         
         }}
         breakpoints={{
           640: {
             slidesPerView: 2,
           },
           768: {
-            slidesPerView: 3,
+            slidesPerView: 2,
           },
         }}
         modules={[Pagination, Autoplay]}
       >
-        {EventItem.map((event) => (
+        {TravelItems.map((event) => (
           <SwiperSlide key={event.id}>
-            <EventCard event={event} />
+            <TravelCommentsCard event={event} />
           </SwiperSlide>
         ))}
       </Swiper>
     </div>
-  ); 
+  );
 }

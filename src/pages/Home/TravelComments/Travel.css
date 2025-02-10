@@ -1,0 +1,19 @@
+.swiper-wrapper {
+    width: 100%;
+    height: max-content !important;
+    padding-bottom: 64px !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+  }
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: #ed952b;
+    border-radius: 15px;
+    transition: all ease 0.5s;
+  }
+  .swiper-pagination-bullet-active {
+    width: 50px;
+    height: 15px !important;
+  }
