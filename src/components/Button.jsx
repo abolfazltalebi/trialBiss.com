@@ -1,9 +1,13 @@
+import { Link } from "lucide-react";
+
 export default function Button({ children, variant, className, ...props }) {
   const variantClass = variant ? checkVariant(variant) : "";
   return (
-    <button className={`${variantClass} ${className}`} {...props}>
-      {children}
-    </button>
+    
+      <button className={`${variantClass} ${className} cursor-pointer`} {...props}>
+        {children}
+      </button>
+    
   );
 }
 
