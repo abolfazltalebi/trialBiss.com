@@ -6,7 +6,7 @@ export default function TraveIImageCard({ image, overlayPosition }) {
     <div className="relative group">
       <img src={image} alt="Travel" className="rounded-xl" />
       <div
-        className={`absolute ${overlayPosition}-3 bottom-3  rounded-full w-[98%] ml-1 h-[45px] 
+        className={`absolute ${overlayPosition}-3 bottom-3 top-3 rounded-full w-[98%] ml-1 h-[45px] 
       transition-all duration-500 px-5 bg-white/20 backdrop-blur-md flex items-center justify-between
       ${
         overlayPosition === "top"
