@@ -23,6 +23,9 @@ function checkVariant(variant) {
   if (variant === "EventButton") {
     return "capitalize border text-black px-8 py-3 rounded-full m-auto md:m-0 text-sm flex items-center gap-2 transition-all hover:px-12 hover:scale-105 duration-500";
   }
+  if (variant === "notFountButton") {
+    return "capitalize border text-black px-8 py-3 rounded-full m-auto md:m-0 text-sm flex items-center gap-2 transition-all hover:px-12 hover:scale-105 duration-500";
+  }
   if (variant === "moreSection") {
     return "bg-white  text-[#0179B4]  flex items-center justify-center px-6 py-3 rounded-xl text-sm gap-2";
   }
