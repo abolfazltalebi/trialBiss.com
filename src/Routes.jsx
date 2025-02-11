@@ -1,10 +1,7 @@
-import { Suspense, lazy } from "react";
-
+import Home from "./pages/Home/Home";
 import Layout from "./components/Layout/Layout";
 import NotFound from "./pages/NotFound/NotFound";
 import { createBrowserRouter } from "react-router-dom";
-
-const Home = lazy(() => import("./pages/Home/Home"));
 
 const router = createBrowserRouter([
   {
@@ -19,14 +16,6 @@ const router = createBrowserRouter([
         path: "*",
         element: <NotFound />,
       },
-      //   {
-      //     path: "/contact",
-      //     element: (
-      //       <Suspense fallback={<p>در حال بارگذاری...</p>}>
-      //         <Contact />
-      //       </Suspense>
-      //     ),
-      //   },
     ],
   },
 ]);
