@@ -25,7 +25,7 @@ export default function HeaderMobile() {
 
       {isOpen && (
         <div
-          className="fixed inset-0 bg-white/40 backdrop-blur-lg  z-40"
+          className="fixed inset-0 bg-white/80   z-40"
           onClick={toggleMenu}
         />
       )}
@@ -46,7 +46,7 @@ export default function HeaderMobile() {
               <li key={id}>
                 <Link
                   to={path}
-                  className="text-lg font-medium text-gray-700 hover:text-blue-500"
+                  className="text-lg font-medium text-gray-700 hover:text-[#ed952b]"
                   onClick={toggleMenu}
                 >
                   {label}
