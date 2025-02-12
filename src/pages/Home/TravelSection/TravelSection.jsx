@@ -11,9 +11,9 @@ export default function TravelSection() {
       <div className="container space-y-8 py-8">
         <TravelHeaderSection />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-          <TraveIImageCard image={image1} overlayPosition="bottom" />
+          <TraveIImageCard image={image1}/>
           <TravelInfoCard />
-          <TraveIImageCard image={image2} overlayPosition="top" />
+          <TraveIImageCard image={image2} />
           <img src={image3} alt="Travel" className="rounded-xl" />
         </div>
       </div>

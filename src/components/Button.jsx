@@ -3,14 +3,12 @@ import { Link } from "react-router-dom";
 export default function Button({ children, variant, className, ...props }) {
   const variantClass = variant ? checkVariant(variant) : "";
   return (
-    <Link to="">
       <button
         className={`${variantClass} ${className} cursor-pointer`}
         {...props}
       >
         {children}
       </button>
-    </Link>
   );
 }
 

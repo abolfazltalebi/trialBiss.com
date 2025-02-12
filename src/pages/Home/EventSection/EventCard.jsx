@@ -1,7 +1,7 @@
 
 export default function EventCard({event}) {
   return (
-    <div className="bg-white rounded-2xl overflow-hidden p-4 space-y-4">
+    <div className="bg-white rounded-2xl overflow-hidden p-4 space-y-4 transition-all duration-300 hover:translate-y-2">
       <img
         src={event.image}
         alt={event.title}

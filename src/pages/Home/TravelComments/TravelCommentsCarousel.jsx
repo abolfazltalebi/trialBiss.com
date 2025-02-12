@@ -32,7 +32,7 @@ export default function TravelCommentsCarousel() {
         modules={[Pagination, Autoplay]}
       >
         {TravelItems.map((event) => (
-          <SwiperSlide key={event.id}>
+          <SwiperSlide key={event.id} >
             <TravelCommentsCard event={event} />
           </SwiperSlide>
         ))}
